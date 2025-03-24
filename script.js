@@ -1,16 +1,38 @@
-function generateIdentity() {
-    // Vérifie que Faker est bien chargé
-    if (typeof faker !== 'undefined') {
-        let name = faker.name.findName();
-        let address = faker.address.streetAddress();
-        let email = faker.internet.email();
-        let phone = faker.phone.phoneNumber();
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
 
-        document.getElementById("name").textContent = name;
-        document.getElementById("address").textContent = address;
-        document.getElementById("email").textContent = email;
-        document.getElementById("phone").textContent = phone;
-    } else {
-        alert("Erreur : Faker.js ne s'est pas chargé. Vérifie ta connexion Internet.");
-    }
+h1 {
+    color: #333;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 20px 0;
+    cursor: pointer;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section {
+    background-color: white;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 8px;
+    width: 90%;
+    max-width: 500px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+img {
+    border-radius: 50%;
+    margin-bottom: 10px;
 }
