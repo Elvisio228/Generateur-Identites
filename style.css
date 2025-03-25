@@ -1,0 +1,85 @@
+/* 1. Ajout d'une couleur de fond à toute la page */
+body {
+    background-color: #f4f4f4; /* Gris clair, tu peux changer */
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* 2. Couleur du titre */
+h1 {
+    color: #2c3e50; /* Bleu foncé, modifiable */
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+/* 3. Centrer l’avatar */
+#avatar {
+    display: block;
+    margin: 10px auto; /* Centre l'avatar */
+    width: 120px; /* Ajuste la taille */
+    height: 120px;
+    border-radius: 50%;
+    background-color: #ddd; /* Ajoute un fond gris */
+}
+
+/* 4. Centrer le bouton "Générer" */
+#generer {
+    display: block;
+    margin: 15px auto; /* Centre le bouton */
+    background-color: #3498db; /* Bleu */
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* 5. Répartition des autres boutons de chaque côté de l'avatar */
+.boutons-container {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px auto;
+    width: 60%;
+}
+
+/* 6. Ajout d’un cadre aux rubriques */
+.rubrique {
+    border: 2px solid #2c3e50;
+    padding: 15px;
+    margin: 15px auto;
+    width: 80%;
+    background-color: white;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* 7. Ajout d'une couleur aux titres des rubriques */
+.rubrique h2 {
+    background-color: #2c3e50;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* 8. Rétablir les espaces pour la publicité */
+.pub {
+    width: 80%;
+    height: 90px;
+    background-color: #ddd; /* Fond temporaire pour la pub */
+    margin: 15px auto;
+    text-align: center;
+    line-height: 90px;
+    font-weight: bold;
+    color: #666;
+}
+
+/* 9. Agrandir les boutons et la police */
+button {
+    font-size: 18px;
+    padding: 12px 25px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+}
