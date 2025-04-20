@@ -1,57 +1,55 @@
 <!DOCTYPE html>
 <html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Générateur d'Identité</title>
-    <link rel="shortcut icon" href="./logo-html5.png">
-    <link rel="stylesheet" href="./style.css">
-</head>
-<body>
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title>Générateur d'Identité</title>
+        <link rel="shortcut icon" href="./logo-html5.png"/>
+        <link rel="stylesheet" href="./style.css"/>
+    </head>
+    
+    
+    <body>
+        
+        <header>
+            <h1>Générateur d'Identité</h1>
+        </header>
 
-    <h1>Générateur d'Identité</h1>
-
-    <!-- 3. Avatar centré -->
-    <img id="avatar" src="avatar-homme.jpg" alt="Avatar">
-
-    <!-- 4. Bouton Générer centré -->
-    <button id="generer">Générer une identité</button>
-
-    <!-- 5. Autres boutons répartis autour de l’avatar -->
-    <div class="boutons-container">
-        <button>Exporter</button>
-        <button>Partager</button>
-    </div>
-    <div>
-        <button>Pays</button>
-        <button>Genre</button>
-    </div>
-
-    <!-- 6. Rubriques encadrées -->
-    <div class="rubrique">
-        <h2>Identité</h2>
-        <p><strong>Nom et Prénom :</strong> <span id="nom"></span></p>
-        <p><strong>Genre :</strong> <span id="genre"></span></p>
-        <p><strong>Naissance :</strong> <span id="naissance"></span></p>
-        <p><strong>Téléphone :</strong> <span id="telephone"></span></p>
-        <p><strong>Email :</strong> <span id="email"></span></p>
-        <p><strong>Numéro de Sécurité :</strong> <span id="numSecu"></span></p>
-    </div>
-
-    <div class="rubrique">
-        <h2>Adresse</h2>
-        <p><strong>Rue :</strong> <span id="rue"></span></p>
-        <p><strong>Ville/Village :</strong> <span id="ville"></span></p>
-        <p><strong>État/Province/Région :</strong> <span id="etat"></span></p>
-        <p><strong>Code Postal :</strong> <span id="zip"></span></p>
-        <p><strong>Pays :</strong> <span id="pays"></span></p>
-    </div>
-
-    <!-- 8. Espaces publicitaires -->
-    <div class="pub">Publicité 1</div>
-    <div class="pub">Publicité 2</div>
-
-    <script src="script.js"></script>
-
-</body>
+        <main>
+            <!-- 3. Avatar centré -->
+            <img id="avatar" src="./avatar-homme.jpg" alt="Avatar">
+            <!-- 4. Bouton Générer centré -->
+            <button id="generer">Générer une identité</button>
+            <!-- 5. Autres boutons répartis autour de l’avatar -->
+            <div class="boutons-container">
+                <button>Exporter</button>
+                <button>Partager</button>
+            </div>
+            <div>
+                <button>Pays</button>
+                <button>Genre</button>
+            </div>
+            <!-- 6. Rubriques encadrées -->
+            <div class="rubrique">
+                <h2>Identité</h2>
+                <p><strong>Nom et Prénom :</strong> <span id="nom"></span></p>
+                <p><strong>Genre :</strong> <span id="genre"></span></p>
+                <p><strong>Naissance :</strong> <span id="naissance"></span></p>
+                <p><strong>Téléphone :</strong> <span id="telephone"></span></p>
+                <p><strong>Email :</strong> <span id="email"></span></p>
+                <p><strong>Numéro de Sécurité :</strong> <span id="numSecu"></span></p>
+            </div>
+            <div class="rubrique">
+                <h2>Adresse</h2>
+                <p><strong>Rue :</strong> <span id="rue"></span></p>
+                <p><strong>Ville/Village :</strong> <span id="ville"></span></p>
+                <p><strong>État/Province/Région :</strong> <span id="etat"></span></p>
+                <p><strong>Code Postal :</strong> <span id="zip"></span></p>
+                <p><strong>Pays :</strong> <span id="pays"></span></p>
+            </div>
+            <!-- 8. Espaces publicitaires -->
+            <div class="pub">Publicité 1</div>
+            <script src="script.js"></script>
+        </main>
+    </body>
 </html>
