@@ -1,3 +1,4 @@
+alert("test");
 function genererIdentite() {
     if (typeof faker === 'undefined') {
         alert("Erreur : Faker.js ne s'est pas chargé.");
